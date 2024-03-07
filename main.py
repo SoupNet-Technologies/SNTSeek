@@ -4,9 +4,9 @@ from tkinter import ttk
 import csv
 from bs4 import BeautifulSoup
 
-api = shodan.Shodan(API_KEY)
-
 API_KEY = "your key goes here"
+
+api = shodan.Shodan(API_KEY)
 
 def save_to_csv(results):
     with open('shodan_results.csv', 'w', newline='', encoding='utf-8') as file:
