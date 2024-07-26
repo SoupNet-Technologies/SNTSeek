@@ -19,6 +19,7 @@ SNTSeek is a powerful tool designed by SoupNet Technologies to perform Shodan se
 - BeautifulSoup4 library
 - Tkinter (included with Python)
 - csv (included with Python)
+- python-dotenv library
 
 ## Installation
 
@@ -32,15 +33,15 @@ SNTSeek is a powerful tool designed by SoupNet Technologies to perform Shodan se
 2. **Install Required Libraries**:
 
     ```sh
-    pip install shodan beautifulsoup4
+    pip install shodan beautifulsoup4 python-dotenv
     ```
 
-3. **Set Your Shodan API Key**:
+3. **Create a `.env` File**:
 
-    Open the `SNTSeek.py` file and replace `"your key goes here"` with your actual Shodan API key.
+    Create a file named `.env` in the root directory of the project and add your Shodan API key:
 
-    ```python
-    API_KEY = "your key goes here"
+    ```env
+    SHODAN_API_KEY=your_actual_shodan_api_key
     ```
 
 ## Usage
@@ -68,4 +69,3 @@ SNTSeek is a powerful tool designed by SoupNet Technologies to perform Shodan se
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit pull requests for any enhancements or bug fixes.
-

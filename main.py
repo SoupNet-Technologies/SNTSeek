@@ -4,8 +4,11 @@ from tkinter import ttk
 import csv
 from bs4 import BeautifulSoup
 from tkinter import messagebox
+from dotenv import load_dotenv
+import os
 
-API_KEY = "your key goes here"
+load_dotenv()
+API_KEY = os.getenv("SHODAN_API_KEY")
 
 api = shodan.Shodan(API_KEY)
 
