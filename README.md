@@ -1,4 +1,4 @@
-# SNTSeek - SoupNet Technologies
+# SNTSeek
 
 ## Overview
 
