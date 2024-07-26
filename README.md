@@ -2,7 +2,7 @@
 
 ## Overview
 
-SNTSeek is a powerful tool designed by SoupNet Technologies to perform Shodan searches directly from a user-friendly graphical interface. It allows users to input search queries, view results in a structured format, and save these results to a CSV file for further analysis.
+SNTSeek is a powerful tool to perform Shodan searches directly from a GUI. It allows users to input search queries, view results in a structured format, and save these results to a CSV file for further analysis.
 
 ## Features
 
